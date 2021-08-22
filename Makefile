@@ -9,7 +9,7 @@ PKG_VERSION:=0.10.2
 PKG_RELEASE:=$(SUBTARGET)
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=https://github.com/frainzy1477/trojan-go.git
+PKG_SOURCE_URL:=https://github.com/frainzy1477/trojan-go1.git
 PKG_MIRROR_HASH:=skip
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE_VERSION:=33f3fd564fcced4845fbb39083fb9b9882bf8b11
