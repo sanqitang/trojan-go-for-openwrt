@@ -1,9 +1,16 @@
-on: 
-  release:
-    types:
-      - created
+#on: 
+#  release:
+#    types:
+#      - created
 
 name: trojan-go
+
+on:
+# 编辑触发    
+  push:
+    branches: 
+      - master
+
 jobs:
   build:
     runs-on: ubuntu-20.04
