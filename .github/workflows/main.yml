@@ -6,10 +6,15 @@
 name: trojan-go
 
 on:
+
 # 编辑触发    
-  push:
-    branches: 
-      - master
+#  push:
+#    branches: 
+#      - master
+
+# 点赞触发  
+  watch:
+    types: started
 
 jobs:
   build:
