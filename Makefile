@@ -23,7 +23,7 @@ PKG_BUILD_DEPENDS:=golang/host
 PKG_BUILD_PARALLEL:=1
 PKG_USE_MIPS16:=0
 
-GO_PKG:=github.com/frainzy1477/trojan-go
+GO_PKG:=github.com/frainzy1477/trojan-go-1
 GO_PKG_BUILD_PKG:=$$(GO_PKG)
 
 GO_PKG_TAGS:=full
